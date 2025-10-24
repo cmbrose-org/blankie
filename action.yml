@@ -1,0 +1,7 @@
+name: 'Hello World'
+description: 'A bare bones hello world action'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Hello World!"
+      shell: bash
